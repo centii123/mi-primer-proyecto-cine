@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto</title>
+    <link rel="stylesheet" href="mantenimiento.css" type="text/css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0oIsvtw3voTTHG_frNwFl2y5GG1cPyAmRPloGGCVJ3T7T5YO8pQOiHewgCQ2r8HfH-HJ-ssMYymYScWnGSKP2Luvc1zpwzgyr243fnW3lngH9FfZyyZaWPGtOiQxaYtvLO4FhH8dIN1LmmzIPKH3xoz2X2dY2Tl_ysQ2jAem4K0OqpsfvgyOFKDRaTramQCgU1-ZXtJwTCqRYYs7YmLIhrhhmWZI-s_9igz3KGnDKTk2A8z3BGgnACxKn-8Od_C70DtiL2VUsR7g0Ren5kCvCr0gnj7tH2NYEZGu96graaDd5h4eH15W8P1XpQAOL0d2kRkhpmRDTIz4gHmNHnw_PVCdBPwuKkShwlARmEOi5pomCR2-wBeLdQR-hQVlcxS3Yotpa4MzjqDSCRYEa9QIzZbiAjqcZANFrq9XMZpQ9su-8yb0AWatzh4nlGmD030Cu88mzz6EnTJCIVPJMDJv-7nzJ56pci7B085ybL3A83DIY7w1iRqOJ86sXpvVRtk6rlFp0L6jIX-Xlcx1I12xdxwX7adHkpdc8S4_zecGKo4YUd-VJNFh9Ux29nQ4NWycvfNdNQsyYgLF1jRbuhPsSmqdPnSJtxc6ST2yjv1ON7tZP-T44z1a_qAzUzaEtqxqn4mIt0u8XH16gil9j6atYKzZ83IpbDlmd5qwDTP_BzeXOreLcIM0kTlGqiYlCA3oB6iNdmw_lKdeyMw_tseAom1T6N9sHgLNZmyfVzgOMXR-e8L7WwcS8n_Oz0Ug8qwO2jk4DvG2No7OveFQxSDdwAojHMlr0896UJKC7ttET3bG-DtwW3jv5Q0PufDdPtIPQvzJrp9bmJkby_aXeEAtHrCXMd26eZMrWZKi3uVk71jsPoVkBPL1_DkSDZKoXHve7yKTB_ewE_LT9XTsOv8O74y8ayvZ51EA2lV0Oc73Lv4SXYMZxOBBZwUp409cnanzCyeMFcu5_QeOffCk9El9j8UXivmScVq50DY0Ba8V_svftzxmChf91J2n635pffPQqNRu2ebJZXbGKDkKeCSNIh7zYjRBVA0Q7FYK29nM592dA6p5gN-j220X7sWr3xVeeQrFe2VKWeIgqWaqkrY9yrh3G4b0McdeIQYzbEWSuilaOpWMCZehTDytDd0rwA6PeZ74Wqt-4w8gJCtEeYu7CYtsAma5nwldYdyiM4vPyZ4593ytrjMTzptr-sFCXl2CAcSFZyRtyRp91RQOUGBzNA" nonce="16a83ce8f30edb9c0d80ea369b32705d" charset="UTF-8"></script></head>
+
+<body>
+    <div id="volverr">
+    <a href="../1 semestre proyecto/INICIO/index.html" id="volver">VOLVER AL INICIO</a>
+    </div>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>inicia sesion para entrar en la pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar Sesion</button>
+                </div>
+
+                <div class="caja__trasera-register">
+                    <h3>¿Aun no tienes cuenta?</h3>
+                    <p>inicia sesion para entrar a la pagina</p>
+                    <button id="btn__registrate">Registrate</button>
+                </div>
+            </div>
+
+            <div class="contenedor__login-register">
+
+                <form action="" class="formulario__login">
+                    <h2>Iniciar sesion</h2>
+                    <input type="text" placeholder="Usuario" id="usuario">
+                    <input type="password" placeholder=" Contraseña " id="clave">
+                    <input type="button" id="button" value="Iniciar sesion" onclick="entrar()">
+                </form>
+
+                <form class="formulario__register">
+
+                    <h2>Registrate</h2>
+                    <input type="text" name="data[]" placeholder="nombre del usuario" id="rNomUsuario" class="datoInput">
+                    <input type="email" name="data[]" placeholder="correo electronico" id="rCorreo" class="datoInput">
+                    <input type="text" name="data[]" placeholder=" usuario " id="rUsuario" class="datoInput">
+                    <input type="password" name="data[]" placeholder="contraseña" id="rClave" class="datoInput">
+                    <input type="button" name="data[]" value="Registrarse" id="button" class="datoInput" onclick="guardar()">
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
+
+    
+</body>
+
+
+</html>
